@@ -1,9 +1,9 @@
-import HorchataNatural_2l_sh_pic from '../../assets/pics/short/2-horchata-chufa-natura-short.png'
-import FartonsCaja20uds from '../../assets/pics/short/artons-dulce-valenciano-short.png'
+import HorchataNatural_2l_sh_pic from '../../assets/pics/short/2-horchata-chufa-natural-short.png'
+import FartonsCaja20uds from '../../assets/pics/short/fartons-dulce-valenciano-short.png'
 import TrufaChufas from '../../assets/pics/short/delicias-chufa-desivados-chufas-valencia-espana-spain-short.png'
 import mixFrutSecos from '../../assets/pics/short/frutos-secos-nuts-short.png'
-import lecheAlmendras from '../../assets/pics/short/bebidas-vegetales-large.png'
-import CacaoPolvo from '../../assets/pics/short/frutos-secos-nuts-short.png'
+import lecheAlmendras from '../../assets/pics/short/bebidas-vegetales-short.png'
+import CacaoPolvo from '../../assets/pics/short/cacao-y-choco-short.png'
 import CocoBombs from '../../assets/pics/short/coco-short.png'
 
 
