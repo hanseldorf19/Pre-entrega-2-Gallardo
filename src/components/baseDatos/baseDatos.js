@@ -9,11 +9,11 @@ import CocoBombs from '../../assets/pics/short/coco-short.png'
 
 export const arrayProducts = [
 
-    {id: 1, title: "2 x Horchata de Chufas Natural - 1L" , price: "11€", picUrl: HorchataNatural_2l_sh_pic, categoria: "Horchata de Chufas" },
-    {id: 2, title: "Fartons Caja - 20 uds" , price: "12€", picUrl: FartonsCaja20uds, categoria: "Fartons" },
-    {id: 3, title: "Trufa de Chufas - 250gr" , price: "6€", picUrl: TrufaChufas, categoria: "Chufas Delights" },
-    {id: 4, title: "Mix Frutos Secos - 300gr" , price: "9€", picUrl: mixFrutSecos, categoria: "Frutos Secos" },
-    {id: 5, title: "2 x leche de Almendaras - 1L" , price: "11€", picUrl: lecheAlmendras, categoria: "Bebidas Vegetales" },
-    {id: 6, title: "Cacao en Polvo - 500gr" , price: "9€", picUrl: CacaoPolvo, categoria: "Cacao y Choco" },
-    {id: 4, title: "Bombones de Coco - 500gr" , price: "7€", picUrl: CocoBombs, categoria: "Coco" }
+    {id: 1, title: "2 x Horchata de Chufas Natural - 1L" , price: "11€", picUrl: HorchataNatural_2l_sh_pic, categoria: "horchatas" },
+    {id: 2, title: "Fartons Caja - 20 uds" , price: "12€", picUrl: FartonsCaja20uds, categoria: "fartons" },
+    {id: 3, title: "Trufa de Chufas - 250gr" , price: "6€", picUrl: TrufaChufas, categoria: "chufadelight" },
+    {id: 4, title: "Mix Frutos Secos - 300gr" , price: "9€", picUrl: mixFrutSecos, categoria: "frutossecos" },
+    {id: 5, title: "2 x leche de Almendaras - 1L" , price: "11€", picUrl: lecheAlmendras, categoria: "bebidas-vegetales" },
+    {id: 6, title: "Cacao en Polvo - 500gr" , price: "9€", picUrl: CacaoPolvo, categoria: "cacaoychoco" },
+    {id: 4, title: "Bombones de Coco - 500gr" , price: "7€", picUrl: CocoBombs, categoria: "coco" }
 ]

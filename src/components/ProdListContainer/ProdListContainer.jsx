@@ -21,9 +21,11 @@ const promesa = new Promise((resolve, reject) => {
 
     useEffect(()=>{
         promesa.then((response)=>
-        {
+        {   
             if (categoryId){
                 // vamos a filtrar por categoria
+                const productsFilter = response.filter(elemento=>elemento.categoria === categoryId)
+                setProductos(productsFilter)
             } else {
                 // vamos a ver todos los prodcutos
                 setProductos(response)
@@ -35,7 +37,7 @@ const promesa = new Promise((resolve, reject) => {
     
     console.log("productos",productos);
 
-    return(
+    return (
         <div className='text-center mt-5 ml-5'>
         <h3 >Lista de Productos</h3>
         <ProductList items={productos}/>

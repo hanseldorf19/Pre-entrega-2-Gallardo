@@ -9,18 +9,21 @@ export const ProductList = ({items})=>{
 // POr eso podemos poner export const ProductList = ({items})=>console.log(props);
 // Asi no hay que estar haciendo props.Propiedad1, props.Propiedad2, ...
 return(
-    <div className='w-75 productsGird  d-flex flex-row mt-2 p-1 mx-2'>
+    <div className='w-75 girdPosition'>
+        
+        <div className='productsGird  d-flex flex-row mt-2 p-1 mx-2'>
         
        
-        {
-            // Por cada elemento voy a crear un componente
-            // key es una propiedad de map  
-            
-            items.map(producto=>(<Product key={producto.id} item={producto}/>))
+            {
+                // Por cada elemento voy a crear un componente
+                // key es una propiedad de map  
+                
+                items.map(producto=>(<Product key={producto.id} item={producto}/>))
 
-        }
+            }
        
 
+        </div>
     </div>
 )
 
