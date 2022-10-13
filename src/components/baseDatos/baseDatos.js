@@ -15,5 +15,5 @@ export const arrayProducts = [
     {id: 4, title: "Mix Frutos Secos - 300gr" , price: "9€", picUrl: mixFrutSecos, categoria: "frutossecos" },
     {id: 5, title: "2 x leche de Almendaras - 1L" , price: "11€", picUrl: lecheAlmendras, categoria: "bebidas-vegetales" },
     {id: 6, title: "Cacao en Polvo - 500gr" , price: "9€", picUrl: CacaoPolvo, categoria: "cacaoychoco" },
-    {id: 4, title: "Bombones de Coco - 500gr" , price: "7€", picUrl: CocoBombs, categoria: "coco" }
+    {id: 7, title: "Bombones de Coco - 500gr" , price: "7€", picUrl: CocoBombs, categoria: "coco" }
 ]

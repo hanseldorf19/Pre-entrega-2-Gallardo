@@ -3,9 +3,9 @@ import './ProductDetailContainer.css'
 import { useState,useEffect } from "react";
 import { useParams } from 'react-router-dom';
 import { arrayProducts } from '../baseDatos/baseDatos';
-import { ProdutDetail } from '../ProductDetail/ProductDetail';
+import { ProductDetail } from '../ProductDetail/ProductDetail';
 
-export const ProductDetailContiner = ()=>{
+export const ProductDetailContainer = ()=>{
     //const {id} = useParams();  destructuracion
     const id = useParams().id;
 
@@ -32,8 +32,7 @@ export const ProductDetailContiner = ()=>{
     return(
         <div className =''>
             <p style={{width: '100%', color: 'white'}}>Product Detail Container</p>
-            <ProdutDetail item={itemProduct}/>
-
+            <ProductDetail item = {itemProduct}/>
 
         </div>
     )
