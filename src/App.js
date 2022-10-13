@@ -6,6 +6,7 @@ import { TopBar } from './components/NavBar/TopNav/TopNav';
 import { ProdListContainer } from './components/ProdListContainer/ProdListContainer'
 import { ContactPage } from './components/ContactPage/ContactPage';
 import { useParams } from 'react-router-dom';
+//import { ProductDetailContainer } from './components/ProductDetailContainer/ProductDetailContainer'
 import { ProductDetail } from './components/ProductDetail/ProductDetail'
 
 function App() {
@@ -23,7 +24,6 @@ function App() {
                 <Route path="/" element={<ProdListContainer/>}/>
                 <Route exact path="/category/:categoryId" element={<ProdListContainer/>}/>
                 <Route path='=/product/:id' element={<ProductDetail/>}/>
-                
                
                 <Route path="/contacto" element={<ContactPage/>}/>
               </Routes>
